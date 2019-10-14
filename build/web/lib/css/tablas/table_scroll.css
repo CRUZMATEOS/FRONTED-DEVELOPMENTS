@@ -1,0 +1,21 @@
+/* 
+    Created on : 13/10/2019, 04:38:42 PM
+    Author     : Luis Mateos
+*/
+
+.table-cont{
+    /**make table can scroll**/
+    max-height: 300px; /*Tamaño vertical*/
+    overflow: auto;
+    /** add some style**/
+    /*padding: 2px;*/
+    background: #d9edfd;  /* Color las columnas*/
+    margin: 20px 10px;
+    box-shadow: 0 0 1px 1px #ddd;
+}
+thead{
+    background-color: #31B0D5;  /*Color de encabezado*/
+}
+
+th {/*font-family: "Arial Bold",serif;*/color: #FFFFFF; min-width: 190px;}/*Tamaño Horizontal Columnas*/
+
