@@ -11,11 +11,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <!-- API Bootstrap -->
         <link data-require="bootstrap@*" data-semver="3.3.7" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-        <!-- Style table -->
+        <!-- Estilos tablas -->
         <link href="../lib/css/tablas/table_scroll.css" rel="stylesheet" type="text/css"/>
-        <!-- Js table -->
+        <!-- Js tablas -->
         <script src="../lib/js/tablas/table_scroll.js" type="text/javascript"></script>
-        <!-- Search in table -->
+        <!-- Buscador tabla -->
         <script src="../lib/js/tablas/table_doSearch.js" type="text/javascript"></script>
         
         <title>Tabla Responsive Thead Fixer</title>   

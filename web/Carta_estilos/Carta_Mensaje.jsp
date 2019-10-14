@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!-- Style Carta -->
+        <!-- Stilos Carta -->
         <link href="../lib/css/carta_estilos/carta_estilos.css" rel="stylesheet" type="text/css"/>
         <title>Carta de Estilos</title>
     </head>
