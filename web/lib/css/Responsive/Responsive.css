@@ -1,0 +1,50 @@
+
+body{
+    background: orange;
+}
+div{
+    width: 80%; /*100px*/
+    height: 150px;
+   /* border: 2px solid black;*/  
+    margin: 8%; /*30px*/
+    display: inline-block;
+    background: white;
+}
+
+/*telefono en posiscion horizontal*/
+@media screen and (min-width: 480px){
+    body{
+        background:#7FAAFF;
+    }
+    div{
+        display: block;
+    }
+    }
+    
+
+/*tamaño corriespondiente a una tablet*/
+@media screen and (min-width: 767px){
+    
+   body{
+        background:#552AFF;
+    }
+    div{
+        width: 40%;
+            margin:4%;
+    }
+}
+
+    
+    
+/*Pantalla d escritorio*/
+@media screen and (min-width: 950px){
+    
+    body{
+         background: #00FFAA;
+    }
+
+div{
+        width: 28%;
+            margin:2%;
+    }
+}
