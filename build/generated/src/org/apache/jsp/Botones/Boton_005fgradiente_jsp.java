@@ -1,10 +1,10 @@
-package org.apache.jsp.Carta_005festilos;
+package org.apache.jsp.Botones;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class Carta_005fMensaje_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class Boton_005fgradiente_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -48,33 +48,12 @@ public final class Carta_005fMensaje_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <!-- Stilos Carta -->\n");
-      out.write("        <link href=\"../lib/css/carta_estilos/carta_estilos.css\" rel=\"stylesheet\" type=\"text/css\"/>\n");
-      out.write("        <title>Carta de Estilos</title>\n");
+      out.write("        <!-- Estilos Button -->\n");
+      out.write("        <link href=\"../lib/css/Formularios/Boton_gradiente.css\" rel=\"stylesheet\" type=\"text/css\"/>\n");
+      out.write("        <title>Glowing Gradient Button</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <div class=\"card\">\n");
-      out.write("            <div class=\"card-image\"></div>\n");
-      out.write("            <div class=\"card-text\">\n");
-      out.write("                <span class=\"date\">4 days ago</span>\n");
-      out.write("                <h2>Post One</h2>\n");
-      out.write("                <p>RPG Styles Card with Hover Effect - HTML/CSS RPG Styles Card with Hover Effect - HTML/CSS RPG Styles Card with Hover Effect - HTML/CSS</p>\n");
-      out.write("            </div>\n");
-      out.write("            <div class=\"card-stats\">\n");
-      out.write("                <div class=\"stat\">\n");
-      out.write("                    <div class=\"value\">4<sup>m</sup></div>\n");
-      out.write("                    <div class=\"type\">read</div>\n");
-      out.write("                </div>\n");
-      out.write("                <div class=\"stat border\">\n");
-      out.write("                    <div class=\"value\">5123</div>\n");
-      out.write("                    <div class=\"type\">views</div>\n");
-      out.write("                </div>\n");
-      out.write("                <div class=\"stat\">\n");
-      out.write("                    <div class=\"value\">32</div>\n");
-      out.write("                    <div class=\"type\">comments</div>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
+      out.write("        <a href=\"#\">Button</a> \n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
